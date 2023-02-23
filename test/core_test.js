@@ -25,3 +25,10 @@ guests.push({
 // console.log(guests);
 const dataJson = JSON.stringify(guests);
 fs.writeFileSync("jason_data.json",dataJson);
+
+
+//read
+const dataBuffer = fs.readFileSync("jason_data.json");
+const dataJSON = dataBuffer.toString();
+const data = JSON.parse(dataBuffer);
+console.log(data);
