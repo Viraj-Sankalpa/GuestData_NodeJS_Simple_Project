@@ -13,7 +13,7 @@ console.log(data.toString());
 
 */
 
-
+/*
 //save
 const guests=[];
 
@@ -32,3 +32,5 @@ const dataBuffer = fs.readFileSync("jason_data.json");
 const dataJSON = dataBuffer.toString();
 const data = JSON.parse(dataBuffer);
 console.log(data);
+
+*/
