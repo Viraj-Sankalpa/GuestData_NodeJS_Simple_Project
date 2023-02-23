@@ -7,7 +7,7 @@ const chalk = require('chalk');
 // const age = 100;
 
 const add = ()=>{
-    console.log(chalk.green("Adding.."));
+    console.log(chalk.green.inverse("Adding.."));
 }
 const view = ()=>console.log(chalk.blue("View"));;
 
