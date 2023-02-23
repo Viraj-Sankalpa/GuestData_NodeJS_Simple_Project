@@ -1,5 +1,8 @@
 const fs = require('fs');
 
+
+/*
+
 fs.writeFileSync("data.txt","Hello"); //when run this, always create new data.txt file and add new detail
 fs.appendFileSync("data.txt"," world");
 
@@ -7,3 +10,18 @@ fs.appendFileSync("data.txt"," world");
 const data = fs.readFileSync("data.txt");
 //geting output
 console.log(data.toString());
+
+*/
+
+
+//save
+const guests=[];
+
+guests.push({
+    name:"name1",
+    address:"add1"
+});
+
+// console.log(guests);
+const dataJson = JSON.stringify(guests);
+fs.writeFileSync("jason_data.json",dataJson);
