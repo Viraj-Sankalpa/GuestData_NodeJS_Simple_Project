@@ -1,23 +1,26 @@
 const chalk = require('chalk');
 //data save
 
-// console.log("guestDB.js");
-
-// const name= "viraj";
-// const age = 100;
-
-const add = ()=>{
-    console.log(chalk.green.inverse("Adding.."));
+const addGuest=(name,address,contact,visit_date)=>{
+    console.log(chalk.green("Add",name));
 }
-const view = ()=>console.log(chalk.blue("View"));;
 
+const updateGuest=(id,name,address,contact,visit_date)=>{
+    console.log(chalk.yellow("Update",id));
+}
 
+const deleteGuest=(id)=>{
+    console.log(chalk.red("Delete",id));
+}
 
+const readGuest=(id)=>{
+    console.log(chalk.blue("Read",id));
+}
 
-//if we want to use this name variable, we should export it
-// module.exports = name;
+const listGuest=()=>{
+    console.log(chalk.magenta("List"));
+}
 
 module.exports = {
-    add,
-    view,
+    addGuest,updateGuest,deleteGuest,readGuest,listGuest,
 }
