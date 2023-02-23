@@ -5,5 +5,6 @@ const db = require("./guestDB");
 // console.log("app.js");
 
 // console.log(name);
-console.log(db.add());
-console.log(db.view());
+db.add();
+db.view();
+

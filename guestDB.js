@@ -1,3 +1,4 @@
+const chalk = require('chalk');
 //data save
 
 // console.log("guestDB.js");
@@ -6,9 +7,9 @@
 // const age = 100;
 
 const add = ()=>{
-    return "Adding...";
+    console.log(chalk.green("Adding.."));
 }
-const view = ()=>"View..";
+const view = ()=>console.log(chalk.blue("View"));;
 
 
 

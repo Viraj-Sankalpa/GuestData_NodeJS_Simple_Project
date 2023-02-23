@@ -1,0 +1,25 @@
+{
+  "name": "guestdata_nodejs_simple_project",
+  "version": "1.0.0",
+  "description": "This is a sample CRUD practice project using NodeJS",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Viraj-Sankalpa/GuestData_NodeJS_Simple_Project.git"
+  },
+  "author": "viraj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Viraj-Sankalpa/GuestData_NodeJS_Simple_Project/issues"
+  },
+  "homepage": "https://github.com/Viraj-Sankalpa/GuestData_NodeJS_Simple_Project#readme",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
+}
