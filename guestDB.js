@@ -44,7 +44,7 @@ const updateGuest=(id,name,address,contact,visit_date)=>{
         guest.contact = contact ? contact:guest.contact;
         guest.visit_date = visit_date ? visit_date:guest.visit_date;
 
-        console.log(chalk.yellow("Record Updated ",id));
+        console.log(chalk.yellowBright("Record Updated ",id));
         saveGuest(guests);
     }else{
         console.log(chalk.red("No record found"));
