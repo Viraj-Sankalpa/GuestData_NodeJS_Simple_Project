@@ -62,7 +62,7 @@ const deleteGuest=(id)=>{
         saveGuest(newGuests);
     console.log(chalk.red("Delete",id));
     }else{
-        console.log(chalk.red.inverse("Can't find the record"));
+        console.log(chalk.red.inverse("Can't find the record!"));
     }
 
 }
